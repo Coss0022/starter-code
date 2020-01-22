@@ -6,3 +6,8 @@ If you have any questions about it, or need any help getting started, feel free 
 
 
 Good luck coding!
+
+
+
+Attributions:
+Icons blantantly stolen from the SVG Icon Sets assignment (https://assets.learn-the-web.algonquindesign.ca/web-dev-3/svg-icon-sets-download.zip).
