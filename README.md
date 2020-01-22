@@ -10,4 +10,6 @@ Good luck coding!
 
 
 Attributions:
-Icons blantantly stolen from the SVG Icon Sets assignment (https://assets.learn-the-web.algonquindesign.ca/web-dev-3/svg-icon-sets-download.zip).
+Icons blatantly stolen from the SVG Icon Sets assignment (https://assets.learn-the-web.algonquindesign.ca/web-dev-3/svg-icon-sets-download.zip).
+
+Favicons blatantly stolen from the Micro interface branding assignment (https://assets.learn-the-web.algonquindesign.ca/web-dev-3/micro-interface-branding-download.zip)
