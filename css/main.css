@@ -7,8 +7,8 @@ h1 {
 }
 */
 
-html {
-  background-color: blue;
+header {
+  background-color: lightblue;
 }
 
 /* The code below is to restrict the size of the logo, and to centre it in the nav bar */
@@ -19,12 +19,68 @@ html {
   margin: 0 auto;
 }
 
+/* The code below changes the navigation button colour to show the user what page they are on */
+.current {
+  background-color: #333;
+  border-color: #333;
+  color: #fff;
+}
+
+.current:focus,
+.current:hover,
+.btn-ghost:focus,
+.btn-ghost:hover {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+main {
+  background-color: purple;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.beige {
+  background-color: beige;
+}
+
+/* The code below styles the clickable cards */
+.card {
+  position: relative;
+  min-height: 12rem;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 3px solid #333;
+  transition: all .1s linear;
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+}
+
+.card:focus,
+.card:hover {
+  background-color: #333;
+  border-color: #333;
+  color: #fff;
+}
+
+footer {
+  background-color: lightpink;
+}
 
 @media only screen and (min-width: 38em) {
 
   /* The code below pushes the logo to left of the screen at larger sizes */
   .logo {
     margin: 0;
+  }
+
+  /* The code below makes the navigation buttons go to the right at larger screen sizes */
+  .big-right {
+    text-align: right;
   }
 
 }
