@@ -1,0 +1,30 @@
+/* Add any colours, gradients, or basic animations in this file.
+
+Also add your fonts to your webpage here (example below):
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+*/
+
+html {
+  background-color: blue;
+}
+
+/* The code below is to restrict the size of the logo, and to centre it in the nav bar */
+.logo {
+  display: block;
+  height: 60px;
+  width: 80px;
+  margin: 0 auto;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  /* The code below pushes the logo to left of the screen at larger sizes */
+  .logo {
+    margin: 0;
+  }
+
+}
