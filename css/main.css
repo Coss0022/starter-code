@@ -35,6 +35,11 @@ header {
   color: #fff;
 }
 
+/* The code below hides the navigation button text at the smallest screensize */
+.small-hide {
+  display: none;
+}
+
 main {
   background-color: purple;
 }
@@ -71,6 +76,15 @@ main {
 
 footer {
   background-color: lightpink;
+}
+
+@media only screen and (min-width: 25em) {
+
+/* The code below makes the text content of the nav buttons visible at larger screen sizes */
+  .small-hide {
+    display: inline-block;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
